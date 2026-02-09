@@ -142,8 +142,3 @@ Efficiency metrics influence scoring behavior, but **long-term dominance is driv
 - Correlation, regression & hypothesis testing  
 
 -- 
-## 👩‍💻 Author
-
-**Alfiya Ansari**
-📌 Data Science & Analytics Enthusiast
-🔗 GitHub: **alfiya-ansari-175**
