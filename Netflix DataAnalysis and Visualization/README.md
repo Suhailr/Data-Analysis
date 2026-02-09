@@ -1,5 +1,5 @@
 
-##🎬 Netflix Data Analysis & Visualization##
+## 🎬 Netflix Data Analysis & Visualization ##
 
 📌 Project Overview
 
