@@ -1,7 +1,7 @@
 
 ## 🎬 Netflix Data Analysis & Visualization ##
 
-📌 Project Overview
+# 📌 Project Overview #
 
 This project presents an end-to-end data analysis and visualization of Netflix movie data using Python.
 The aim is to extract meaningful business insights by answering key analytical questions and presenting findings through clear, well-structured visualizations.
