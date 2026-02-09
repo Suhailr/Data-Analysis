@@ -1,15 +1,7 @@
 
-# Data-Driven Goals: A Comprehensive EDA of Football
+# A Comprehensive EDA of Football
 
 This project is focused on in-depth exploratory data analysis of football data, aiming to uncover the intricate patterns and dynamics that define the sport.
-
-View the [Kaggle Notebook](https://www.kaggle.com/code/nakshjain11/football-eda) or [Interactive EDA Notebook](https://nbviewer.org/github/Nakshjainsonigara/Football-EDA/blob/85c6528f326f40c531222a88a703a430f7a8f2fa/EDA.ipynb#)  for interactive visualizations.
-
-## Contributors
-
-- [Naksh Jain Sonigara](https://www.linkedin.com/in/naksh-jain-sonigara-16a970215/)
-- [Soumya Chauhan](https://www.linkedin.com/in/soumyachauhandotcom/)
-
 
  
  ## Project Overview
@@ -21,8 +13,6 @@ Our analysis began with data preprocessing, where we meticulously cleaned and in
 Throughout the project, we encountered and addressed several challenges, such as handling missing values, ensuring data consistency, and performing advanced statistical tests to validate our hypotheses. By overcoming these obstacles, we were able to provide a detailed analysis of factors influencing club performance, player contributions, and the impact of various game events. Our findings offer valuable insights that can inform decision-making for clubs, enhance fan engagement, and guide further research in football analytics. 
 
 ## Data Description
-
-The data has been sourced from [Kaggle](https://www.kaggle.com/datasets/thedevastator/football-data-competitions-clubs-players-statist)
 
 1. **Appearances**: appearance_id, game_id, player_id, player_club_id, player_current_club_id, date, player_name, competition_id, yellow_cards, red_cards, goals, assists, minutes_played. 
 
@@ -63,6 +53,8 @@ The data has been sourced from [Kaggle](https://www.kaggle.com/datasets/thedevas
  * We extend our gratitude to [dcereijo](https://data.world/dcereijo) for providing the dataset used in this analysis.
  * We appreciate the contributions of the open-source community and the various libraries utilized in this project.
 
-## Contact 
-For constructive feedback, inquiries, or collaboration opportunities, please contact [jainnaksh576@gmail.com](jainnaksh576@gmail.com) or [soumyachauhan05@gmail.com](soumyachauhan05@gmail.com) .
+## Author
+
+Mohamed Suhal Mohamad Haniff 
+Aspiring Data Analyst
 
