@@ -1,5 +1,6 @@
 
-**🎬 Netflix Data Analysis & Visualization**
+##🎬 Netflix Data Analysis & Visualization##
+
 📌 Project Overview
 
 This project presents an end-to-end data analysis and visualization of Netflix movie data using Python.
