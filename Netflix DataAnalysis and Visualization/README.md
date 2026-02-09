@@ -1,14 +1,14 @@
 
-## 🎬 Netflix Data Analysis & Visualization ##
+# 🎬 Netflix Data Analysis & Visualization #
 
-# 📌 Project Overview #
+## 📌 Project Overview ##
 
 This project presents an end-to-end data analysis and visualization of Netflix movie data using Python.
 The aim is to extract meaningful business insights by answering key analytical questions and presenting findings through clear, well-structured visualizations.
 
 The project follows a real-world Exploratory Data Analysis (EDA) workflow, making it suitable for data analyst internships and entry-level roles, including Netflix.
 
-**🎯 Objectives of the Project**
+## 🎯 Objectives of the Project ##
 
 Perform structured data cleaning and preprocessing
 
@@ -16,7 +16,7 @@ Identify trends related to popularity, ratings, genres, votes, and release years
 
 Demonstrate data storytelling and analytical thinking
 
-**🛠️ Tools & Technologies Used**
+## 🛠️ Tools & Technologies Used ##
 
 Python
 
@@ -28,30 +28,40 @@ Jupyter Notebook (PyCharm)
 
 Git & GitHub
 
-**📂 Dataset Description**
+## 📂 Dataset Description ##
 
 The dataset contains Netflix movie information with the following columns:
 
 Title – Movie name
+
 Release_Date – Year of release
+
 Genre – Movie genre
+
 Popularity – Popularity score
+
 Vote_Count – Number of user votes
+
 Vote_Average – Average user rating
+
 Each movie may appear multiple times due to multiple genres, allowing genre-wise analysis.
 
-**🧹 Data Cleaning & Preparation**
+## 🧹 Data Cleaning & Preparation ##
 
 The following steps were performed before analysis:
 
 Removed missing and inconsistent values
+
 Standardized column formats
+
 Ensured correct data types
+
 Handled duplicate movie-genre records
+
 Prepared data for visualization-ready analysis
 
 
-**📈 Key Insights Summary**
+## 📈 Key Insights Summary ##
 
 • Action & Adventure genres dominate Netflix’s popular content  
 • Movies generate higher user engagement compared to TV Shows  
@@ -62,7 +72,7 @@ Prepared data for visualization-ready analysis
 • Data visualization enhances clarity and business decision-making
 
 
-**🚀 Why This Project Stands Out**
+## 🚀 Why This Project Stands Out ##
 
 ✔ Industry-style EDA structure
 ✔ Clear analytical questions
@@ -71,7 +81,7 @@ Prepared data for visualization-ready analysis
 ✔ Demonstrates real-world data analytics workflow
 
 
-**👩‍💻 Author**
+## 👩‍💻 Author ##
 
 Mohamed Suhal Mohamad Haniff
 Aspiring Data Analyst | Python | Data Visualization
