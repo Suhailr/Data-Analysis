@@ -64,11 +64,17 @@ Prepared data for visualization-ready analysis
 ## 📈 Key Insights Summary ##
 
 • Action & Adventure genres dominate Netflix’s popular content  
+
 • Movies generate higher user engagement compared to TV Shows  
+
 • Higher popularity strongly correlates with increased vote counts  
+
 • Netflix has consistently expanded content production over the years  
+
 • Average ratings remain stable, reflecting maintained content quality  
+
 • Genre-wise analysis highlights clear audience preference patterns  
+
 • Data visualization enhances clarity and business decision-making
 
 
