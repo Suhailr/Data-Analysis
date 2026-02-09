@@ -1,15 +1,3 @@
-# Table of contents : 
-* Know Data Attributes
-* Ask Questions
-* Assessing Data
-* Clean Column Labels 
-* Filter, Drop Nulls, Dedupe
-* Inspect Data Types
-* Fixing Data Types
-* Exploring with Visuals
-* Merge Datasets 
-* Results with Merged Datasets 
-
 
 # What is Fuel Economy?
 Excerpt from Wikipedia page on Fuel Economy in Automobiles:
