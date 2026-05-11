@@ -1,60 +1,173 @@
 
-# A Comprehensive EDA of Football
-
-This project is focused on in-depth exploratory data analysis of football data, aiming to uncover the intricate patterns and dynamics that define the sport.
-
+# Football Intelligence: An Exploratory Data Analysis Project
  
- ## Project Overview
+## ⚽ Project Overview
 
-In this project, we embarked on an in-depth exploratory data analysis to explore the intricate and diverse world of football. Our extensive dataset, comprising player appearances, club games, clubs, competitions, game events, games, player valuations, and player profiles, provided a robust foundation for our study. By analyzing this rich collection of data, we sought to uncover the key patterns and dynamics that shape the sport. This exploration allowed us to investigate multiple facets of football, including individual player performances, disciplinary records, club success rates, and the competitive structures of various leagues.
+This project presents a comprehensive Exploratory Data Analysis (EDA) of football data to uncover meaningful insights into player performances, club dynamics, league competitiveness, and match events. Using multiple interconnected datasets covering players, clubs, games, competitions, and market valuations, the analysis explores how different factors influence football outcomes and team success.
 
-Our analysis began with data preprocessing, where we meticulously cleaned and integrated information from multiple sources. This involved complex merging operations across eight distinct datasets, a challenging task due to the varying formats and structures of the data. We utilized a range of Python libraries, including pandas for data manipulation, NumPy for numerical operations, and Scipy for statistical analysis. Visualization tools like Matplotlib and Plotly were employed to create compelling and interactive charts, enabling us to present our findings in a clear and insightful manner.
+The project combines data preprocessing, statistical analysis, and interactive visualizations to analyze real-world football data from multiple leagues and competitions. By integrating and analyzing data from eight distinct datasets, this project provides insights into player behavior, disciplinary trends, club performance, transfer activity, and market value evolution.
 
-Throughout the project, we encountered and addressed several challenges, such as handling missing values, ensuring data consistency, and performing advanced statistical tests to validate our hypotheses. By overcoming these obstacles, we were able to provide a detailed analysis of factors influencing club performance, player contributions, and the impact of various game events. Our findings offer valuable insights that can inform decision-making for clubs, enhance fan engagement, and guide further research in football analytics. 
+The analysis aims to support football analytics research, club-level strategic decision-making, and fan engagement through data-driven storytelling.
 
-## Data Description
+## 📌 Objectives
 
-1. **Appearances**: appearance_id, game_id, player_id, player_club_id, player_current_club_id, date, player_name, competition_id, yellow_cards, red_cards, goals, assists, minutes_played. 
+* Analyze player performances across clubs and competitions.
+* Explore club performance trends and success metrics.
+* Investigate disciplinary records such as yellow and red cards.
+* Study player market value growth over time.
+* Compare home vs away team performances.
+* Identify top-performing clubs and players.
+* Examine squad characteristics such as age and squad size.
+* Understand player transfer mobility and nationality distributions.
 
-2. **Clubs**: club_id, club_code, name, domestic_competition_id, total_market_value, squad_size, average_age, foreigners_number, foreigners_percentage, national_team_players, stadium_name, stadium_seats, net_transfer_record, coach_name, last_season, url 
+## 📂 Dataset Description
+The project uses multiple football-related datasets containing detailed information about players, clubs, games, and competitions.
 
-3. **Club_games**: game_id, club_id, own_goals, own_position, own_manager_name, opponent_id, opponent_goals, opponent_position, opponent_manager_name, hosting, is_win  
+### Datasets Used:-
+### Appearances:
+Contains player-level match appearance statistics.
+Key Features:
+* Goals
+* Assists
+* Minutes Played
+* Yellow Cards
+* Red Cards
 
-4. **Competitions**: competition_id, competition_code, name, sub_type, type, country_id, country_name, domestic_league_code, confederation, url  
+### Clubs:
+Contains club information and squad-level statistics.
 
-5. **Games**: game_id, competition_id, season, round, date, home_club_id, away_club_id, home_club_goals, away_club_goals, home_club_position, away_club_position, home_club_manager_name, away_club_manager_name, stadium, attendance, referee, url, home_club_name, away_club_name, aggregate, competition_type 
+Key Features:
+* Squad Size
+* Average Age
+* Total Market Value
+* Stadium Information
+* Coach Details
 
-6. **Game_events**: game_id, minute, type, club_id, player_id, description, player_in_id  
+### Club Games:
+Contains club performance data for each game.
 
-7. **Players**: player_id, first_name, last_name, name, last_season, current_club_id, player_code, country_of_birth, city_of_birth, country_of_citizenship, date_of_birth, sub_position, position, foot, height_in_cm, market_value_in_eur, highest_market_value_in_eur, contract_expiration_date, agent_name, image_url, url, current_club_domestic_competition_id, current_club_name  
+Key Features:
+* Goals Scored
+* Opponent Information
+* Match Outcome
+* Hosting Status
 
-8. **Player_valuations**: player_id, last_season, datetime, date, dateweek, market_value_in_eur, n, current_club_id, player_club_domestic_competition_id
+### Competitions:
+Contains league and tournament information.
 
+Key Features:
+* Competition Name
+* Country
+* Confederation
+* Competition Type
 
-## Exploratory Data Analysis
-1. Player Club Appearances Overview
-2. Player Height Distribution Analysis for Centre-Forwards
-3. Analyzing Player Mobility and Transfer Frequencies
-4. Player Market Value Trends Over Time
-5. Club Yellow and Red Card Analysis
-6. Player Nationality Analysis
-7. Home vs Away Performance Analysis
-8. Club Performace Report
-9. Age Group Dynamics and Performance in Football Clubs
-10. Exploring the Relationship Between Squad Size and Win Rates
-11. Top 5 players of individual club
-12. Top performing clubs of each competitions
-13. Top Scorer Analysis
+### Games:
+Contains detailed match-level information.
 
-## Technical Requirements
- Libraries required are `numpy` ,`pandas` ,`seaborn` ,`matplotlib` ,`plotly` ,`dash` ,`ipywidgets` ,`scipy` and `scikit-learn`.
+Key Features:
+* Match Scores
+* Attendance
+* Managers
+* Stadium
+* Match Date
 
-## Acknowledgments
- * We extend our gratitude to [dcereijo](https://data.world/dcereijo) for providing the dataset used in this analysis.
- * We appreciate the contributions of the open-source community and the various libraries utilized in this project.
+### Game Events:
+Contains minute-by-minute match events.
 
-## Author
+Key Features:
+* Goals
+* Substitutions
+* Event Types
+* Player Involvement
 
-Mohamed Suhal Mohamad Haniff 
-Aspiring Data Analyst
+### Players:
+Contains player demographic and professional details.
 
+Key Features:
+* Position
+* Height
+* Nationality
+* Market Value
+* Preferred Foot
+
+### Player Valuations:
+Tracks player market value changes over time.
+
+Key Features:
+* Market Value History
+* Date-wise Valuation Trends
+
+## 🛠️ Technologies Used
+
+### Programming Language
+* Python
+
+### Libraries & Tools
+* Pandas
+* NumPy
+* SciPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Plotly
+* Dash
+* ipywidgets
+* Jupyter Notebook
+
+## 🔄 Project Workflow
+
+1️⃣ Data Collection <br>
+2️⃣ Data Cleaning & Preprocessing <br>
+3️⃣ Data Integration Across Multiple Datasets <br>
+4️⃣ Exploratory Data Analysis (EDA) <br>
+5️⃣ Statistical Analysis <br>
+6️⃣ Interactive Data Visualization <br>
+7️⃣ Insight Generation 
+
+## 📊 Performed Statistical and Visual Data Exploration
+### ⚽ Player & Club Analysis
+- Player club appearance overview <br>
+- Top 5 players of individual clubs <br>
+- Player nationality distribution <br>
+- Player mobility and transfer frequency analysis
+
+### 📈 Market Value Analysis
++ Player market value trends over time <br>
++ Relationship between performance and valuation 
+
+### 🟥 Discipline Analysis
+- Club yellow card analysis <br>
+- Club red card analysis <br>
+- Aggressive play trends across competitions
+
+### 🏟️ Match & Performance Analysis
+- Home vs away performance comparison <br>
+- Club performance reports <br>
+- Top-performing clubs across competitions <br>
+- Top scorer analysis
+
+### 👥 Squad & Demographic Analysis
+- Age group dynamics and club performance <br>
+- Relationship between squad size and win rates <br>
+- Height distribution analysis for centre-forwards
+
+## 📌 Key Insights & Findings
+- Certain clubs consistently outperform others due to stronger squad depth and tactical consistency.
+- Home teams generally show higher win rates and goal-scoring efficiency compared to away teams.
+- Clubs with balanced squad sizes and optimal average age tend to perform better overall.
+- Market value trends strongly correlate with player performance and consistency.
+- Disciplinary records significantly influence club performance in competitive leagues.
+- Top scorers contribute disproportionately to club success and league standings.
+
+## 📉 Challenges Faced
+- Handling missing and inconsistent data across multiple datasets.
+- Merging eight datasets with varying structures and formats.
+- Managing large-scale football datasets efficiently.
+- Performing accurate statistical validation.
+- Creating meaningful interactive visualizations.
+
+## 📷 Visualizations
+This project includes Interactive Plotly dashboards, Statistical charts, Performance trend graphs, Club comparison visuals, Player valuation timelines and Distribution plots and heatmaps.
+
+## 👨‍💻 Author
+Mohamed Suhal Mohamad Haniff | Data Analytics Enthusiast
