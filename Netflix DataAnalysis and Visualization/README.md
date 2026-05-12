@@ -75,4 +75,4 @@ The dataset structure allows both individual movie analysis and genre-based comp
 
 ## 👩‍💻 Author 
 
-Mohamed Suhal Mohamad Haniff | Data Analysis Enthusiast
+Mohamed Suhal Mohamad Haniff | Data Analytics Enthusiast
