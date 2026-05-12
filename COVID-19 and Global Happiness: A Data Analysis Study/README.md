@@ -15,7 +15,7 @@ The main objective of this project is to analyze whether there is any meaningful
 
 As a data enthusiast, this project helps in understanding how global crises may impact societal well-being.
 
-## 📊 Datasets
+## 📊 Datasets Description
 
 1. COVID-19 Dataset
 - Source: Johns Hopkins University
