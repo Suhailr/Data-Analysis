@@ -1,67 +1,53 @@
 
 # 🎬 Netflix Data Analysis & Visualization #
 
-## 📌 Project Overview ##
+## 📌 Project Overview 
 
-This project presents an end-to-end data analysis and visualization of Netflix movie data using Python.
-The aim is to extract meaningful business insights by answering key analytical questions and presenting findings through clear, well-structured visualizations.
+This project presents an end-to-end Exploratory Data Analysis (EDA) of Netflix movie data using Python. The objective is to extract meaningful insights from the dataset and present them through structured analysis and visualizations.
 
-The project follows a real-world Exploratory Data Analysis (EDA) workflow, making it suitable for data analyst internships and entry-level roles, including Netflix.
+The workflow follows a real-world data analytics approach, making it suitable for data analyst portfolios, internships, and entry-level roles.
 
-## 🎯 Objectives of the Project ##
+## 🎯 Objectives of the Project 
 
-Perform structured data cleaning and preprocessing
+- Analyze trends in Netflix movie content over time
+- Identify top-performing genres and categories
+- Study relationships between popularity and user ratings
+- Explore user engagement patterns through vote counts
+- Examine content distribution across release years
+- Generate insights using statistical and visual analysis
 
-Identify trends related to popularity, ratings, genres, votes, and release years
+## 📂 Dataset Description
+The dataset contains detailed Netflix movie information used for analysis.
+### 📊 Key Features
+- Title – Name of the movie
+- Release_Date – Year of release
+- Genre – Movie genre (some movies appear in multiple genres)
+- Popularity – Popularity score of the movie
+- Vote_Count – Number of user votes
+- Vote_Average – Average rating of the movie
 
-Demonstrate data storytelling and analytical thinking
+The dataset structure allows both individual movie analysis and genre-based comparative analysis.
 
-## 🛠️ Tools & Technologies Used ##
+## 🛠️ Tools & Technologies
 
-Python
+1. Python <br>
+2. Pandas <br>
+3. NumPy <br>
+4. Matplotlib <br>
+5. Seaborn <br>
+6. Jupyter Notebook <br>
+7. Git & GitHub
 
-Pandas – data manipulation & cleaning
+## 🔄 Project Workflow
 
-Matplotlib & Seaborn – data visualization
+- Data Collection
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Visualization
+- Insight Generation
 
-Jupyter Notebook (PyCharm)
-
-Git & GitHub
-
-## 📂 Dataset Description ##
-
-The dataset contains Netflix movie information with the following columns:
-
-Title – Movie name
-
-Release_Date – Year of release
-
-Genre – Movie genre
-
-Popularity – Popularity score
-
-Vote_Count – Number of user votes
-
-Vote_Average – Average user rating
-
-Each movie may appear multiple times due to multiple genres, allowing genre-wise analysis.
-
-## 🧹 Data Cleaning & Preparation ##
-
-The following steps were performed before analysis:
-
-Removed missing and inconsistent values
-
-Standardized column formats
-
-Ensured correct data types
-
-Handled duplicate movie-genre records
-
-Prepared data for visualization-ready analysis
-
-
-## 📈 Key Insights Summary ##
+## 📈 Key Insights 
 
 • Action & Adventure genres dominate Netflix’s popular content  
 
@@ -78,17 +64,15 @@ Prepared data for visualization-ready analysis
 • Data visualization enhances clarity and business decision-making
 
 
-## 🚀 Why This Project Stands Out ##
+## 📉 Challenges Faced
 
-✔ Industry-style EDA structure
-✔ Clear analytical questions
-✔ Multiple visualizations per insight
-✔ Clean, readable, recruiter-friendly notebook
-✔ Demonstrates real-world data analytics workflow
+- Handling duplicate entries due to multi-genre movies
+- Cleaning inconsistent and missing values
+- Standardizing dataset structure for analysis
+- Ensuring accurate visualization of categorical data
+- Interpreting relationships between multiple variables
 
 
-## 👩‍💻 Author ##
+## 👩‍💻 Author 
 
-Mohamed Suhal Mohamad Haniff
-
-Aspiring Data Analyst | Python | Data Visualization
+Mohamed Suhal Mohamad Haniff | Data Analysis Enthusiast
