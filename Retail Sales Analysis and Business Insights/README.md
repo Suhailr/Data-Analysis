@@ -10,7 +10,7 @@ Using data preprocessing, statistical analysis, and visualization techniques, th
 
 The project follows a real-world analytics workflow and demonstrates how retail organizations can leverage data to improve operational efficiency and business growth.
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
 - Analyze customer purchasing behavior across different demographics
 - Identify seasonal sales and revenue trends
