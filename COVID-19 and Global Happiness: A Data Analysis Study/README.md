@@ -66,5 +66,5 @@ The analysis includes:
 This project demonstrates that while COVID-19 significantly impacted global populations, happiness levels are influenced by a broader set of socio-economic factors. The analysis highlights the importance of considering multiple dimensions when studying societal well-being.
 
 ## 👨‍💻 Author
-Mohamed Suhal Mohamad Haniff | Data Analyst Enthusiast
+Mohamed Suhal Mohamad Haniff | Data Analytics Enthusiast
 
